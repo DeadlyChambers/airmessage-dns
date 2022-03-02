@@ -1,0 +1,11 @@
+{
+            "Comment": "Updating the ip to match the router for dynamic dns of airmessage server ",
+            "Changes": [{
+            "Action": "UPSERT",
+                        "ResourceRecordSet": {
+                                    "Name": "airmessage.soinshane.com",
+                                    "Type": "A",
+                                    "TTL": 300,
+                                 "ResourceRecords": [{ "Value": "70.59.11.227"}]
+}}]
+}
