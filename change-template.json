@@ -1,0 +1,11 @@
+{
+            "Comment": "Updating the ip to match the router for dynamic dns of airmessage server ",
+            "Changes": [{
+            "Action": "UPSERT",
+                        "ResourceRecordSet": {
+                                    "Name": "_aws_domain_name",
+                                    "Type": "A",
+                                    "TTL": 300,
+                                 "ResourceRecords": [{ "Value": "_new_ip"}]
+}}]
+}
