@@ -1,3 +1,9 @@
+If you are running a custom implementation of Airmessage and you have a domain in 
+Route 53 with an Alias record that is pointing to your IP address. Update a few
+Values to reflect your aws account, local credentials, and local Mac configuration 
+to create a service that will use launchd to ensure the
+Alias record is updated when your public up is changed. 
+
 # Setting up a job with launchctl on mac
 Assuming you have copied all of these files over to ~/scripts folder. You will
 want to ensure you update the com.airmessage.dns file to your liking. Replace 
